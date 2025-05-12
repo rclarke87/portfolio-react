@@ -10,22 +10,23 @@ const about = () => {
           <div className="space-y-4">
             <p className="text-xl">
               I'm a team leader, systems thinker and front-end developer with a
-              passion for building clean, functional, and user-friendly
-              applications. With a background in life-sciences and project
-              management, I bring a strong understanding of both technical
-              delivery and big picture thinking. I'm currently focused on
-              mastering Tailwind and React, but I'm always learning and
-              exploring new technologies.
+              passion for building functional, user-friendly applications. With
+              a background in life sciences and project management, I bring a
+              solid grasp of complex projects, enjoy big-picture thinking and
+              excel at communicating technical topics clearly. I'm currently
+              focused on mastering Tailwind and React, while staying curious and
+              committed to continuous learning.
             </p>
 
-            <p className="text-xl">
-              Outside of work, I have a keen interest in self-hosting, task
-              automation, and creating tools that solve real-world problems.
-              Outside of coding, you'll probably find me brewing beer, geeking
-              out over home servers, or chasing my next side project. I'm always
-              up for a challenge and enjoy collaborating with others who care
-              about thoughtful design and code that can change the world, for
-              the better.
+            <p className="text-xl mt-4">
+              Beyond work, I have too many hobbies and interestes to count,
+              there's self-hosting, data science, machine learning and creating
+              tools that tackle real-world problems. When I'm not coding, you’ll
+              likely find me tinkering with microcontrollers, brewing beer,
+              experimenting with Linux or diving into my next big side project.
+              I love a good challenge and thrive when collaborating with people
+              who care about thoughtful design and writing code that makes a
+              difference.
             </p>
           </div>
         </div>
