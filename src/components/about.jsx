@@ -13,19 +13,19 @@ const about = () => {
               passion for building clean, functional, and user-friendly
               applications. With a background in life-sciences and project
               management, I bring a strong understanding of both technical
-              delivery and the big picture. I'm currently focused on mastering
-              Tailwind and React, and I'm always learning and exploring new
-              technologies.
+              delivery and big picture thinking. I'm currently focused on
+              mastering Tailwind and React, but I'm always learning and
+              exploring new technologies.
             </p>
 
             <p className="text-xl">
-              I have a keen interest in self-hosting, task automation, and
-              creating tools that solve real-world problems. Outside of coding,
-              you'll probably find me brewing beer, geeking out over home
-              servers, or chasing my next side project. I'm always up for a
-              challenge and enjoy collaborating with others who care about
-              thoughtful design and code that can change the world, for the
-              better.
+              Outside of work, I have a keen interest in self-hosting, task
+              automation, and creating tools that solve real-world problems.
+              Outside of coding, you'll probably find me brewing beer, geeking
+              out over home servers, or chasing my next side project. I'm always
+              up for a challenge and enjoy collaborating with others who care
+              about thoughtful design and code that can change the world, for
+              the better.
             </p>
           </div>
         </div>
