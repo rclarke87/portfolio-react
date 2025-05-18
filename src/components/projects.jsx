@@ -26,21 +26,23 @@ export default function PortfolioGrid() {
 
   return (
     <div className="container mx-auto px-4 py-8 mt-12" id="projects">
-      <h2 className="text-3xl font-bold mb-6">My Projects</h2>
+      <h2 className="text-3xl font-bold mb-6">My Recent Projects</h2>
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-[30px] ">
         {items.map((item) => (
           <div key={item.id}>
-            <div>
-              <h3 class="text-xl font-bold mb-2 text-center">{item.title}</h3>
-              <p class="text-base text-center mb-5">{item.description}</p>
-            </div>
-
             <div className="w-full aspect-[4/3] overflow-hidden rounded-2xl shadow-xl/45 transform transition duration-300 hover:scale-103">
               <img
                 src={item.image}
-                alt={item.title}
+                alt={`My ${item.title} project`}
                 className="w-full h-full object-cover"
               />
+            </div>
+
+            <div>
+              <h3 class="text-xl font-bold mt-4 mb-2 text-center">
+                {item.title}
+              </h3>
+              <p class="text-base text-center mb-5">{item.description}</p>
             </div>
           </div>
         ))}

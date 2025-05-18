@@ -24,7 +24,7 @@ const header = () => {
             <li>
               <a
                 href="#about"
-                class="font-medium hover:text-white transition-colors px-2 py-2  hover:bg-black hover: rounded-3xl"
+                class="font-medium hover:text-white transition-colors px-2 py-2  hover:bg-gray-800 hover: rounded-3xl"
               >
                 About
               </a>
@@ -32,7 +32,7 @@ const header = () => {
             <li>
               <a
                 href="#projects"
-                class="font-medium hover:text-white transition-colors px-2 py-2  hover:bg-black hover: rounded-3xl"
+                class="font-medium hover:text-white transition-colors px-2 py-2  hover:bg-gray-800 hover: rounded-3xl"
               >
                 Projects
               </a>
@@ -40,7 +40,7 @@ const header = () => {
             <li>
               <a
                 href="#skills"
-                class="font-medium hover:text-white transition-colors px-2 py-2  hover:bg-black hover: rounded-3xl"
+                class="font-medium hover:text-white transition-colors px-2 py-2  hover:bg-gray-800 hover: rounded-3xl"
               >
                 Skills
               </a>
@@ -48,7 +48,7 @@ const header = () => {
             <li>
               <a
                 href="#blog"
-                class="font-medium hover:text-white transition-colors px-2 py-2  hover:bg-black hover: rounded-3xl"
+                class="font-medium hover:text-white transition-colors px-2 py-2  hover:bg-gray-800 hover: rounded-3xl"
               >
                 Blog
               </a>
@@ -56,7 +56,7 @@ const header = () => {
             <li>
               <a
                 href="#contact"
-                class="bg-teal-500 text-yellow-50 px-3 py-2 rounded-3xl font-medium hover:bg-cyan-500 transition-colors"
+                class="bg-yellow-200 text-grey-800 px-3 py-2 rounded-3xl font-medium hover:bg-yellow-100 hover:border hover:border-yellow-300"
               >
                 Connect
               </a>
