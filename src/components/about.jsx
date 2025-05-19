@@ -3,9 +3,9 @@ import React from "react";
 const about = () => {
   return (
     <div className="container mx-auto px-4 py-8 mt-12" id="about">
-      <div className="grid grid-cols-8 md:grid-cols-8 sm:grid-cols-2 gap-2 items-center">
+      <div className="grid grid-cols-1 md:grid-cols-8 gap-2 items-center">
         {/* Text Column */}
-        <div class="col-span-6">
+        <div class="md:col-span-6">
           <h2 className="text-3xl font-bold mb-6">About Me</h2>
           <div className="space-y-4">
             <p className="text-xl">
@@ -30,11 +30,11 @@ const about = () => {
         </div>
 
         {/* Photo Column */}
-        <div className="col-span-2 flex justify-center items-center">
+        <div className="md:col-span-2 flex justify-center items-center">
           <img
             src="/images/profile.png"
             alt="Profile"
-            className="rounded-[100%] shadow-lg/50 h-60"
+            className="rounded-[100%] shadow-lg/50 w-48 h-48 object-cover sm:w-32 sm:h-32"
           />
         </div>
       </div>

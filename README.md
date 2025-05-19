@@ -1,12 +1,45 @@
-# React + Vite
+# Personal Portfolio Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This repository contains the source code for my personal portfolio website, showcasing my projects, skills, and professional background as a React and Next.js developer.
 
-Currently, two official plugins are available:
+The website is built using:
+- React
+- Vite
+- Tailwind CSS
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Development
 
-## Expanding the ESLint configuration
+To get started with local development:
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+1.  **Clone the repository:**
+    ```bash
+    git clone [YOUR_REPOSITORY_URL] # Replace [YOUR_REPOSITORY_URL] with the actual URL
+    cd [PROJECT_DIRECTORY_NAME] # Replace [PROJECT_DIRECTORY_NAME] with the folder name
+    ```
+
+2.  **Install dependencies:**
+    ```bash
+    npm install
+    ```
+
+3.  **Run the development server:**
+    ```bash
+    npm run dev
+    ```
+    This will start the Vite development server, typically available at `http://localhost:5173`.
+
+## Project Structure
+
+-   `public/`: Static assets (images, favicons).
+-   `src/`: Source code for the React application.
+    -   `components/`: Reusable React components.
+    -   `styles.css`: Global styles and Tailwind CSS imports.
+    -   `main.jsx`: Main entry point for the application.
+    -   `App.jsx`: Root application component.
+-   `index.html`: Main HTML template.
+-   `vite.config.js`: Vite configuration file.
+-   `package.json`: Project dependencies and scripts.
+
+## About Me
+
+This portfolio highlights my journey as a developer, my passion for creating user-friendly applications, and my experience with modern web technologies.
